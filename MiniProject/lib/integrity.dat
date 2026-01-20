@@ -1,0 +1,5 @@
+pololu/VL53L0X
+adafruit/Adafruit PWM Servo Driver Library
+adafruit/Adafruit BusIO @ ^1.10.1
+31
+adafruit/Adafruit MPU6050 @ ^2.2.6
