@@ -24,6 +24,9 @@ This test uses a register-level IMU driver compatible with MPU6050/MPU6500-class
   - PCA9685 at 0x40
 - Logic power 3.3 V, common grounds
 
+## Outputs 
+roll pitch | rollRel pitchRel | rawAx rawAy rawAz | rawGx rawGy rawGz | ToFmm | PCA_ACK | ref
+
 ### How to run
 1. In `platformio.ini`, select only this file:
    ```ini
