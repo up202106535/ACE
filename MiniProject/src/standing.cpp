@@ -24,17 +24,17 @@ struct ServoCal {
 
 // Conservative defaults (you will tune neutralPulse first)
 static ServoCal servos[] = {
-  { 0, 240, 510, 510, "FR horizontal" },
-  { 1, 50, 160, 510, "FR vertical"   },
+  { 0, 240, 430, 510, "FR horizontal" },
+  { 1, 50, 200, 510, "FR vertical"   },
   { 2, 240, 325, 510, "MR horizontal" },
-  { 3, 50, 170, 510, "MR vertical"   },
+  { 3, 50, 160, 510, "MR vertical"   },
   { 4, 240, 325, 510, "RR horizontal" },
   { 5, 50, 200, 510, "RR vertical"   },
   { 6, 240, 345, 510, "FL horizontal" },
-  { 7, 50, 160, 510, "FL vertical"   },
+  { 7, 50, 290, 510, "FL vertical"   },
   { 8, 240, 335, 510, "ML horizontal" },
   { 9, 50, 160, 510, "ML vertical"   },
-  {10, 240, 375, 510, "RL horizontal" },
+  {10, 240, 325, 510, "RL horizontal" },
   {11, 50, 230, 510, "RL vertical"   },
 };
 
